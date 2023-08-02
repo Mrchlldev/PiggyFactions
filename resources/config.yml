@@ -11,19 +11,28 @@ database:
 
 economy:
   enabled: false
-  provider: bedrockeconomy
+  provider: economyapi
   faction-bank:
-    enabled: true
+    enabled: false
 
 factions:
   enforce-alphanumeric-names: false
   blacklisted-names:
     - staff
     - owner
+    - osforce
+    - OsForce
+    - Osf
+    - Shop
+    - kontol
+    - ngentod
+    - kntl
+    - ngtd
+    - anjing
     - admin
     - mojang
   max-name-length: 16
-  max-players: 50
+  max-players: 15
   pvp:
     factionless: true
     between-factionless: true
@@ -44,6 +53,9 @@ factions:
       enemy:
         - home
         - spawn
+        - Lobby
+        - mines
+        - PVP
         - hub
       none: []
       truce: []
